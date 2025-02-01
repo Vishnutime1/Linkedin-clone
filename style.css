@@ -1,12 +1,23 @@
   *{
     padding: 0;
-    margin: o;
+    margin: 0;
+    font-family: "Serif Pro","Source Sans 3", serif;
     box-sizing: border-box;
 }
+
+
+.source-sans-3-Sans {
+    font-family: "Source Sans 3", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
 nav{
     display: flex;
     gap: 310px;
     margin-left: 360px;
+    margin-top: 10px;
 }
 
 nav div ul{
@@ -19,28 +30,503 @@ nav div ul{
 nav div ul img{
     margin-left: 10px;
 }
+nac div img {
+    margin-left: 50px;
+}
+.Articles{
+    margin-top: 3px;
+}
+.Articles:hover{
+    cursor: pointer;
+}
 .Learning{
     margin-left: 12px;
 }
-
+.Learning:hover{
+    cursor: pointer;
+}
 .People{
     margin-left: 6px;
+}
+.People:hover{
+    cursor: pointer;
+}
+.Games{
+    margin-left: 7px;
+}
+.Games:hover{
+    cursor: pointer;
 }
 
 .Jobs{
     margin-left: 2px;
+}
+.Jobs:hover {
+    cursor: pointer;
 }
 .Join{
     padding: 20px;
     border-radius: 40px;
     border: none;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 15px;
+}
+.Join:hover{
+    cursor: pointer;
+    background-color: #F5F5F5;
 }
 .Sign{
-    color: blue;
+    color: #7CC6FE;
     border-radius: 40px;
-    padding: 10px 30px;
+    padding: 8px 30px;
+    font-size: 15px;
+    border-color: #7CC6FE;
+    margin-top: 0px;
+}
+.Sign:hover{
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    gap: 90px;
+    margin-top: 60px;
+}
+.heading{
+    font-size: 50px;
+    color: #526A6E;
+}
+.hero_1{
+    margin-left: 368px;
+}
+
+.hero_2{
+    margin-left: 10px;
+}
+.Google{
+    display: block;
+    margin-top: 20px;
+    padding: 15px 135px;
+    border-radius: 30px;
+    background-color: #4990ed;
+    color: white;
+    border: none;
+}
+.Microsoft{
+    display: block;
+    margin-top: 20px;
+    padding: 15px 128px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+.email{
+    display: block;
+    margin-top: 20px;
+    padding: 15px 155px;
+    border-radius: 30px;
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+
+.Join_Now{
     font-size: 18px;
-    border-color: blue;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.Join_Now a{
+    text-decoration: none;
+    color: #89CEFF;
+}
+
+.User{
+    margin-left: 30px;
+    font-size: 13px;
+}
+.User a{
+    text-decoration: none;
+    color: #004182;
+
+}
+
+.explore{
+    display: flex;
+    background-color: #F3F2F0;
+}
+.explore_1{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 100px;
+}
+.explore_1 p{
+    font-weight: 370;
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+.explore_1 h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+.explore_2{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.Marketing{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.Marketing:hover{
+    cursor: pointer;
+    background-color:#E9E9E7;
+}
+.Public{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.Public:hover{
+    cursor: pointer;
+    background-color: #E9E9E7;
+}
+.IT{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.IT:hover{
+    cursor: pointer;
+    background-color: #E9E9E7;
+}
+.Sustain{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Sustain:hover{
+    cursor: pointer;
+    background-color: #E9E9E7;
+}
+.Tele{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Tele:hover{
+    cursor: pointer;
+    background-color: #E9E9E7;
+}
+.Show{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #4990ed;
+    border-color: skyblue;
+}
+.Show:hover{
+    cursor: pointer;
+    background-color: #E5EBF1;
+}
+.find{
+    display: flex;
+}
+.find_1{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 150px;
+}
+.find_1 p{
+    font-weight: 370;
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+.find_2{
+    margin-left: 240px;
+    margin-top: 50px;
+}
+.Engineering{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Finance{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Customer{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Operations{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Retail{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Human{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.More{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px
+}
+.keep{
+    display: flex;
+}
+.keep_1{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 100px;
+}
+.keep_2{
+    margin-left: 130px;
+    margin-top: 80px;
+}
+.keep_1 p{
+    font-weight: 400;
+    font-size: 32px;
+}
+.Take{
+    font-size: 20px;
+    font-weight: 400;
+}
+.keep_2 button{
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.let{
+    display: flex;
+    background-color: #F3F2F0;
+}
+.let_1{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 150px;
+    margin-top: 200px;
+}
+.let_1 p{
+    color: #B24020;
+    font-size: 33px;
+}
+.let_1 h6{
+    font-weight: 360;
+    font-size: 21px;
+    margin-top: 15px;
+}
+.let_2{
+    margin-left: 100px;
+    margin-top: 72px;
+    margin-bottom: 50px;
+}
+.Connect{
+    display: flex;
+}
+.Connect_1{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 150px;
+    margin-top: 200px;
+}
+.Connect p{
+    font-size: 33px;
+}
+.Connect_2{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 150px;
+    margin-top: 200px;
+}
+.Connect_1 button{
+    padding: 12px 45px;
+    margin-top: 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: transparent;
+}
+.Connect_1 button:hover{
+    cursor: pointer;
+    background-color: #F0F0F0;
+}
+.Connect_2 button{
+    padding: 12px 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.imgdown{
+    margin-left: 30px;
+}
+.who{
+    display: flex;
+    background-color: #F3F2F0;
+    background: linear-gradient(to right, #F3F2F0 35%, white 65%);
+    background : linear-gradient(to bottom, #F3F2F0 95%, white 5%);
+}
+.who_1{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 140px;
+    margin-top: 200px;
+}
+.who_1 p{
+    color: #B24020;
+    font-size: 33px;
+}
+.who_1 h6{
+    font-weight: 360;
+    font-size: 21px;
+    margin-top: 15px;
+}
+.Coworker{
+    padding: 15px;
+    padding-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #EAE6DF;
+    border: none;
+}
+.Coworker img{
+    margin-left: 120px;
+}
+.New_Job{
+    padding: 15px;
+    padding-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #EAE6DF;
+    border: none;
+}
+.New_Job img{
+    margin-left: 242px;
+}
+.trainining{
+    padding: 15px;
+    padding-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #EAE6DF;
+    border: none;
+}
+.trainining img{
+    margin-left: 146px;
+}
+.who_2{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 150px;
+    margin-top: 200px;
+    background-color: #fff;
+}
+.thumb{
+    margin-top: 60px;
+    background: linear-gradient(to left, #F4FAFF 60%, white 40%);
+    display: flex;
+}
+.thumb_1{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+.thumb_2{
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0;
+    margin-left: 15px;
+    margin-bottom: 120px;
+    margin-top: 120px; 
+    justify-content: center;
+}
+.thumb_2 p{
+    font-size: 33px;
+}
+.thumb_2 h6{
+    font-weight: 360;
+    font-size: 21px;
+    margin-top: 15px;
+}
+.Start{
+    margin-top: 60px;
+    background: linear-gradient(to bottom, white, #DFEFFF);
+    height: 40vh;
+}
+.Start p{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 385px;
+}
+.Start button{
+    color: white;
+    background-color: #0A66C2;
+     /* 004182 */
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin-left: 385px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 15px;
+}
+.Start button:hover{
+    background-color: #004182;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    background-color: #F3F2F0;
+}
+footer img{
+    margin: 48px 0;
+    margin-left: 385px;
+    margin-bottom: 120px;
+    margin-top: 20px;
+}
+.left{
+    margin-left: 200px;
+    display: flex;
+    gap: 100px; ;
+    margin-top: 20px;
+}
+#links{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    gap: 5px;
+}
+#links a{
+    text-decoration:dotted;
+    color: #643c07;
+}
+#links a:hover{
+    color: #0A66C2;
+    text-decoration: underline;
+}
+footer div p{
+    font-weight: 500;
 }
